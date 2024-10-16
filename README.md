@@ -9,13 +9,12 @@ This project analyzes the impact of the **5G launch** on AtliQo's key performanc
 - [Data Sources](#data-sources)
 - [Methodology](#methodology)
 - [Visualizations](#visualizations)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
+
+
 
 ## Key Outcomes
 - **Data Acquisition and Preparation**: 
-  - Loaded and cleaned multiple datasets from various CSV files.
+  - Loaded and explored multiple datasets from various CSV files.
   - Merged datasets to create a comprehensive view of AtliQo's performance.
 
 - **Comparative Analysis**: 
@@ -37,9 +36,9 @@ The datasets used in this analysis include:
 - `dim_cities.csv`: Contains information about cities.
 - `dim_date.csv`: Contains information about the dates.
 - `dim_plan.csv`: Contains details about the various internet plans.
-- `fact_atliqo_metrics.csv`: Contains monthly metrics for AtliQo.
+- `fact_atliqo_metrics.csv`: Contains data about revenue, active users and churn users data.
 - `fact_market_share.csv`: Contains market share data.
-- `fact_plan_revenue.csv`: Contains revenue data from different plans.
+- `fact_plan_revenue.csv`: Contains different plans information.
 
 ## Methodology
 1. **Data Loading**: Used Python's `pandas` library to load datasets from CSV files.
@@ -51,14 +50,8 @@ The datasets used in this analysis include:
 ## Visualizations
 The following visualizations were created to support the analysis:
 - **Revenue Comparison**: Bar charts comparing revenue changes before and after the 5G launch.
-- **ARPU Analysis**: Line charts showing ARPU trends over time.
+- **ARPU Analysis**: pie charts showing ARPU trends over time.
 - **Active Users Change**: Bar charts visualizing changes in active user counts.
-- **Churn Rate Analysis**: Charts illustrating the changes in unsubscribed users.
+- **Churn Rate Analysis**: bar illustrating the changes in unsubscribed users.
 
 
-
-## Installation
-To run this project, ensure you have Python installed along with the required libraries. You can install the necessary packages using:
-
-```bash
-pip install -r requirements.txt
