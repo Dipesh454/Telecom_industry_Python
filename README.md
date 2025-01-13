@@ -43,7 +43,7 @@ The datasets used in this analysis include:
 ## Methodology
 1. **Data Loading**: Used Python's `pandas` library to load datasets from CSV files.
 2. **Data Merging**: Combined datasets from different dimensions to enrich the analysis.
-3. **Segmentation**: Filtered data into pre-5G and post-5G segments for comparison.
+3. **Segmentation**: Filtered data into pre-5G and post-5G segments for comparison, Used Machine Learning to interpret the Revenue growth and user engagement.
 4. **Aggregation**: Calculated mean values for key metrics (revenue, ARPU, active users) using `groupby()`.
 5. **Visualization**: Created visualizations using `Matplotlib` and `Seaborn` to illustrate findings.
 
